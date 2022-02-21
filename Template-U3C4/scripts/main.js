@@ -51,7 +51,7 @@ main.append(div1)
 var arr=[]
 var showdata= (data)=>{
     arr.push(data)
-    localStorage.setItem("news",JSON.stringify(arr))
+    localStorage.setItem("article",JSON.stringify(arr))
 
     window.location.href="news.html"
 

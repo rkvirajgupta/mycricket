@@ -6,7 +6,7 @@ function storeSearchterm(term) {
 
 export default storeSearchterm
 
-let searchitem=localStorage.getItem("article");
+let searchitem=localStorage.getItem("search_term");
 console.log(searchitem)
 
 import { apiCall, appendArticles } from "/scripts/main.js"
